@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+
+    
+}
+.section-titel {
+    color: #562EFF;
+    font-size: 24px;
+   
+    margin-bottom: 30px;
+    
+}
+/* top players list */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px ;
+}
+.player {
+    display: flex;
+    align-items: center;
+    pad
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    
+    
+}
+.player-name {
+    font-size: 18px;
+    margin-left: 16px;
+}
