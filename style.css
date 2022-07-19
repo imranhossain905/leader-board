@@ -11,26 +11,30 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #E5E5E5
+    background-color: #E5E5E5;
 }
 main {
     display: flex;
     justify-content: center;
 }
+
 .container {
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-bottom: 30px;
 
     
+}
+hr {
+    border: 1px solid #d1d1d1;
 }
 .section-titel {
     color: #562EFF;
     font-size: 24px;
-   
-    margin-bottom: 30px;
-    
-}
+    margin-bottom: 25px;
+
+   }
 /* top players list */
 .players {
     display: grid;
@@ -40,7 +44,7 @@ main {
 .player {
     display: flex;
     align-items: center;
-    pad
+     
 }
 .player img{
     width: 56px;
@@ -52,3 +56,13 @@ main {
     font-size: 18px;
     margin-left: 16px;
 }
+ /*--------------
+  top blog styles
+  ----------------------- */
+
+  .blog .thamnail img{
+    width: 117px;
+    height: 117px;
+
+}
+
