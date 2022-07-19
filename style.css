@@ -129,12 +129,15 @@ courses styles
     display: flex;
     grid-template-columns: repeat(3, 1fr);
 }
+
 .course-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
+
 .fa-star {
     font-size: 12px;
 }
@@ -144,8 +147,15 @@ courses styles
 .fa-star.empty {
     color: #aeaeae; 
 }
+.rate {
+    font-weight: 540;
+    color: gray;
+}
 .course-duration {
     background-color:pink ;
     color: rgb(219, 63, 115);
-    border-radius: 3px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+    
 }
